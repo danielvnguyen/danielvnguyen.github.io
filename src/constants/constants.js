@@ -19,7 +19,7 @@ export const personalProjects = [
   },
   {
     title: 'SFU Gobbles',
-    description: "An Android game application built by me and two other collaborators as a project submission for SFU CSSS Fall Hacks 2021 Hackathon. Developed with inspiration from Gobblet Gobblers, SFU Gobbles is a version of tic-tac-toe containing different size pieces and images from the user to represent the pieces.",
+    description: "An Android game application built by me and two other collaborators as a project submission for SFU CSSS Fall Hacks 2021 Hackathon, which placed 2nd and won $300. Developed with inspiration from Gobblet Gobblers, SFU Gobbles is a version of tic-tac-toe containing different size pieces and images from the user to represent the pieces.",
     image: '/images/sfugobbles_img.jpg',
     tags: ['Java', 'Android Studio', 'Git'],
     visit: 'https://github.com/danielvnguyen/SFU-CS-Fall-Hacks-2021',

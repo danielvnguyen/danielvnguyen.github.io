@@ -24,7 +24,7 @@ const Header = () =>  (
         </Link>
       </li>
       <li>
-        <a className="button" href="CurrentResume.pdf" download = "CurrentResume.pdf">
+        <a className="button" href="Current Resume.pdf" download = "Current Resume.pdf">
           <NavLink>Résumé</NavLink>
         </a>
       </li>

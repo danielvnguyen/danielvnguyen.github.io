@@ -17,7 +17,7 @@ const Hero = () => (
         Checkout my personal projects below and feel
         free to contact me!
       </SectionText>
-      <Button onClick={() => window.location = '#about'}>Contact Info</Button> 
+      <Button onClick={() => window.location = 'https://danielvnguyen.com/#about'}>Contact Info</Button> 
     </LeftSection>
     <RightSection>
       <SectionTitle>

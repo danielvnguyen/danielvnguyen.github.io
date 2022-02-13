@@ -2,12 +2,28 @@
 
 export const personalProjects = [
   {
+    title: 'SFU Gobbles',
+    description: "An Android game application built by me and two other collaborators as a project submission for SFU CSSS Fall Hacks 2021 Hackathon, which placed 2nd and won $300. Developed with inspiration from Gobblet Gobblers, SFU Gobbles is a version of tic-tac-toe containing different size pieces and images from the user to represent the pieces.",
+    image: '/images/sfugobbles_img.jpg',
+    tags: ['Java', 'Android Studio', 'Git'],
+    visit: 'https://github.com/danielvnguyen/SFU-CS-Fall-Hacks-2021',
+    id: 0,
+  },
+  {
+    title: 'Duck Hunt',
+    description: "A SystemHacks 2022 Hackathon Submission. Duck Hunt is an Android application made with Kotlin and Google Maps APIs. Duck Hunt is made with inspiration to Transit, but instead of bus stops, all nearby bodies of water will be presented in a list to you, where each contains a duck button to indicate whether you have seen ducks there or not. You can also select one of the bodies of water to generate a route starting from your current position.",
+    image: '/images/duckhunt_img.jpg',
+    tags: ['Kotlin', 'Google APIs', 'Android Studio'],
+    visit: 'https://devpost.com/software/duck-hunt',
+    id: 1,
+  },
+  {
     title: 'SketchApp',
     description: "A sketching/drawing Android application. Complete with animations, sound effects, and many features within the easy-to-use interface. Features include changing brush and canvas colour, clear canvas screen, redo & undo strokes, eraser tool, saving drawing to phone, zooming & dragging the canvas, and hiding the UI.",
     image: '/images/sketchapp_img.jpg',
     tags: ['Java', 'Android Studio'],
     visit: 'https://github.com/danielvnguyen/SketchApp',
-    id: 0,
+    id: 2,
   },
   {
     title: 'Letter Rush',
@@ -15,15 +31,7 @@ export const personalProjects = [
     image: '/images/letterrush_img.jpg',
     tags: ['C/C++', 'Visual Studio Code'],
     visit: 'https://github.com/danielvnguyen/LetterRush',
-    id: 1,
-  },
-  {
-    title: 'SFU Gobbles',
-    description: "An Android game application built by me and two other collaborators as a project submission for SFU CSSS Fall Hacks 2021 Hackathon, which placed 2nd and won $300. Developed with inspiration from Gobblet Gobblers, SFU Gobbles is a version of tic-tac-toe containing different size pieces and images from the user to represent the pieces.",
-    image: '/images/sfugobbles_img.jpg',
-    tags: ['Java', 'Android Studio', 'Git'],
-    visit: 'https://github.com/danielvnguyen/SFU-CS-Fall-Hacks-2021',
-    id: 2,
+    id: 3,
   }
 ];
 

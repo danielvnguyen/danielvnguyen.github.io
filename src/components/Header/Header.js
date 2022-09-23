@@ -23,11 +23,6 @@ const Header = () =>  (
           <NavLink>About</NavLink>
         </Link>
       </li>
-      <li>
-        <a className="button" href="Current Resume.pdf" download = "Current Resume.pdf">
-          <NavLink>Résumé</NavLink>
-        </a>
-      </li>
     </Div2>
     <Div3>
       <SocialIcons href = "https://github.com/danielvnguyen">

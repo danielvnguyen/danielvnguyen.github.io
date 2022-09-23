@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiAndroid, DiCode, DiFirebase } from 'react-icons/di';
+import { DiAndroid, DiCodeBadge, DiFirebase, DiMysql, DiAngularSimple  } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './AboutStyles';
 
@@ -11,39 +11,40 @@ const About = () =>  (
     <SectionTitle>About Me</SectionTitle>
     <SectionText>
     I am currently studying for my Bachelor of Science in Computing Science at Simon Fraser University.
-    Expanding my knowledge on technology and improving my skills with computers is my goal.
+    <br /><br />
+    Greater Vancouverite with a passion for expanding my knowledge on technologies and improving my skills with programming tools & languages
     </SectionText>
     <List>
     <ListItem>
-        <DiCode size = "3rem" />
+        <DiCodeBadge size = "3rem" />
         <ListContainer>
           <ListTitle>Languages</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Java, JS, C/C++/C#, <br />
-            Python, LUA, Kotlin, HTML
+            Experienced with <br />
+            Java, JavaScript, C++, <br />
+            Python, HTML, CSS, SQL <br />
+            TypeScript, Kotlin
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiAndroid size = "3rem" />
+        <DiAngularSimple size = "3rem" />
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Android Studio, <br />
-            React.js, and Node.js
+            Experienced with <br />
+            Angular and React
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size = "3rem" />
+        <DiMysql size = "3rem" />
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            writing test files, <br />
-            debugging & databases.
+            Experienced with <br />
+            MySQL, Node.js, Express.js, <br />
+            RESTful API, AWS Cloud
           </ListParagraph>
         </ListContainer>
       </ListItem>

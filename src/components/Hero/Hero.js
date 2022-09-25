@@ -7,9 +7,9 @@ const Hero = () => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        <Img src = '/images/ImageOfYou.jpg'/>
-        <br />
-        <br />
+          <div>
+              <Img src = '/images/ImageOfYou.jpg'/>
+          </div>
         Hi, I'm Daniel!
       </SectionTitle>
       <SectionText>
@@ -17,19 +17,21 @@ const Hero = () => (
         Checkout my personal projects below and feel
         free to contact me!
       </SectionText>
-      <Button onClick={() => window.location = 'https://danielvnguyen.com/#about'}>Contact Info</Button> 
+      <Button onClick={() => window.location = 'https://danielvnguyen.com/#about'}>Contact Info</Button>
     </LeftSection>
     <RightSection>
       <SectionTitle>
-        Most Recent Demo:
-          <iframe src='https://www.youtube.com/embed/tBbvTkH7fKQ'
-            frameBorder='0'
-            allow='autoplay; encrypted-media'
-            allowFullScreen
-            title='video'
-            width= '600px'
-            height= '300px'
-          />
+        Recent Demo:
+          <div>
+              <iframe src='https://www.youtube.com/embed/tBbvTkH7fKQ'
+                      frameBorder='0'
+                      allow='autoplay; encrypted-media'
+                      allowFullScreen
+                      title='video'
+                      width= '500px'
+                      height= '300px'
+              />
+          </div>
       </SectionTitle>
     </RightSection>
     <br/>

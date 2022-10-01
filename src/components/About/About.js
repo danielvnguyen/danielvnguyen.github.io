@@ -30,10 +30,10 @@ const About = () =>  (
       <ListItem>
         <DiAngularSimple size = "3rem" />
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
+          <ListTitle>Frameworks</ListTitle>
           <ListParagraph>
             Experienced with <br />
-            Angular and React
+            Angular, React, Spring
           </ListParagraph>
         </ListContainer>
       </ListItem>

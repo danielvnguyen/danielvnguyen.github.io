@@ -47,7 +47,7 @@ const Projects = () => (
           <div>
             {/* Languages/frameworks used for projects */}
             <br />
-            <TitleContent>What I Used:</TitleContent>
+            <TitleContent>Tech Stack:</TitleContent>
             <TagList>
               {tags.map((tag, i) => (
                 <Tag key={i}>{tag}</Tag>

@@ -14,8 +14,8 @@ const Hero = () => (
       </SectionTitle>
       <SectionText>
         I am a current Simon Fraser University student.
-        Checkout my personal projects below and feel
-        free to contact me!
+        Checkout my personal & academic projects below
+        and feel free to contact me!
       </SectionText>
       <Button onClick={() => window.location = 'https://danielvnguyen.com/#about'}>Contact Info</Button>
     </LeftSection>

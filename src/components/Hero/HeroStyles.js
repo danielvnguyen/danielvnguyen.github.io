@@ -1,12 +1,10 @@
 import styled from 'styled-components';
 
 export const Img = styled.img`
-  width:75%;
-  height:75%;
+  width:50%;
+  height:50%;
   object-fit: cover;
   overflow: hidden;
-  border-radius: 20px;
-  box-shadow: 10px 10px 20px black;
 `
 
 export const LeftSection = styled.div`

@@ -2,7 +2,7 @@ import { IoIosArrowDropdown } from 'react-icons/io';
 import styled from 'styled-components';
 
 export const HeaderWrapper = styled.section`
-	width: calc(100vw - 96px);
+  width: calc(100vw - 96px);
   max-width: 1040px;
   padding: 2rem 48px 40px;
   margin: 1rem auto;
@@ -14,6 +14,12 @@ export const HeaderWrapper = styled.section`
   }
 `
 
+export const StickyHeader = styled.header`
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+`;
+
 export const Container = styled.div`
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -22,6 +28,7 @@ export const Container = styled.div`
   padding: 1rem;
   padding-top: 2rem;
   background: #18191A;
+  opacity: 80%;
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;

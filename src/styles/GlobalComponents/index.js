@@ -30,7 +30,7 @@ export const SectionTitle = styled.h2`
   line-height: ${(props) => props.main ? '72px' : '56px'};
   width: max-content;
   max-width: 100%;
-  background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
+  background: #fff;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 16px;
@@ -81,8 +81,7 @@ export const SectionDivider = styled.div`
   width: 640px;
   height: 6px;
   border-radius: 10px;
-  background-color: #fff;
-  background: lightblue;
+  background-color: #528AAE;
 
     margin: ${(props) => props.divider ? "4rem 0" : "" };
 

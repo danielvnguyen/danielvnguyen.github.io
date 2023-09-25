@@ -3,7 +3,6 @@ import styled from 'styled-components';
 
 export const HeaderWrapper = styled.section`
   width: calc(100vw - 96px);
-  max-width: 1040px;
   padding: 2rem 48px 40px;
   margin: 1rem auto;
   box-sizing: content-box;
@@ -28,7 +27,7 @@ export const Container = styled.div`
   padding: 1rem;
   padding-top: 2rem;
   background: #18191A;
-  opacity: 80%;
+  opacity: 90%;
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;

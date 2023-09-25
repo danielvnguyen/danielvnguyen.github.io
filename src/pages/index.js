@@ -10,8 +10,8 @@ const Home = () => {
       <Section grid>
         <Hero />
       </Section>
+        <About />
       <Projects />
-      <About />
     </Layout>
   );
 };

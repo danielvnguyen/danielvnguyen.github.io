@@ -20,7 +20,7 @@ const Projects = () => (
           <div>
             {/* Languages/frameworks used for projects */}
             <br />
-            <TitleContent>Tech Stack:</TitleContent>
+            <TitleContent>Technologies:</TitleContent>
             <TagList>
               {tags.map((tag, i) => (
                 <Tag key={i}>{tag}</Tag>
@@ -28,7 +28,7 @@ const Projects = () => (
             </TagList>
           </div>
           <UtilityList>
-            <ExternalLinks href={visit}>Go To Repository</ExternalLinks>
+            <ExternalLinks href={visit}>See More</ExternalLinks>
           </UtilityList>
         </BlogCard>
       ))}
@@ -47,7 +47,7 @@ const Projects = () => (
           <div>
             {/* Languages/frameworks used for projects */}
             <br />
-            <TitleContent>Tech Stack:</TitleContent>
+            <TitleContent>Technologies:</TitleContent>
             <TagList>
               {tags.map((tag, i) => (
                 <Tag key={i}>{tag}</Tag>
@@ -55,7 +55,7 @@ const Projects = () => (
             </TagList>
           </div>
           <UtilityList>
-            <ExternalLinks href={visit}>Go To Repository</ExternalLinks>
+            <ExternalLinks href={visit}>See More</ExternalLinks>
           </UtilityList>
         </BlogCard>
       ))}

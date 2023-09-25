@@ -2,6 +2,8 @@ import styled from 'styled-components'
 
 export const Section = styled.section`
   display: ${(props) => props.grid ? "grid" : "flex" };
+  justify-content: center;
+  align-items: center;
   flex-direction: ${(props) => props.row ? "row" : "column" };
   padding: ${(props) => props.nopadding ? "0" : "32px 48px 0" } ;
   margin: 0 auto;
@@ -60,6 +62,7 @@ export const SectionText = styled.p`
   line-height: 40px;
   font-weight: 300;
   padding-bottom: 3.6rem;
+  text-align: center;
   color: white;
 
   @media ${(props) => props.theme.breakpoints.md} {

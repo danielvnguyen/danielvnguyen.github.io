@@ -1,14 +1,10 @@
 import React from 'react';
-import { Section, SectionTitle } from '../../styles/GlobalComponents';
 import { Img } from './HeroStyles';
+import {Section} from "../../styles/GlobalComponents";
 
 const Hero = () => (
-    <Section row nopadding>
-        <SectionTitle main center>
-            <div>
-                <Img src="/images/logo.png" />
-            </div>
-        </SectionTitle>
+    <Section>
+        <Img src="/images/logo.png"/>
     </Section>
 );
 

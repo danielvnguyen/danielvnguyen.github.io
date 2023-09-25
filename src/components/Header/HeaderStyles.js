@@ -141,9 +141,8 @@ color: white;
 border-radius: 50px;
   padding: 8px;
 &:hover {
-    background-color: #212d45;
-    transform: scale(1.2);
+    background-color: #528AAE;
+    transform: scale(1);
     cursor: pointer;
-    
   }
 `

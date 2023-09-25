@@ -7,11 +7,11 @@ import { Section } from '../styles/GlobalComponents';
 const Home = () => {
   return (
     <Layout>
-      <Section grid>
-        <Hero />
+      <Section>
+        <Hero/>
       </Section>
-        <About />
-      <Projects />
+        <About/>
+      <Projects/>
     </Layout>
   );
 };

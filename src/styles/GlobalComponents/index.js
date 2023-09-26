@@ -20,8 +20,7 @@ export const Section = styled.section`
 
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: ${(props) => props.nopadding ? "0" : "16px 16px 0" } ;
-
-    width: calc(100vw - 32px);
+    
     flex-direction: column;
   }
 `
@@ -89,13 +88,13 @@ export const SectionDivider = styled.div`
     margin: ${(props) => props.divider ? "4rem 0" : "" };
 
   @media ${(props) => props.theme.breakpoints.md} {
-    width: 48px;
-    height: 4px;
+    width: 320px;
+    height: 6px;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    width: 32px;
-    height: 2px;
+    width: 320px;
+    height: 6px;
   }
 `
 export const SectionSubText = styled.p`

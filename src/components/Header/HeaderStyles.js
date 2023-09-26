@@ -41,6 +41,9 @@ export const Container = styled.div`
 export const Span = styled.span`
   font-size: 2rem;
   padding-left: 1rem;
+  &:hover {
+    text-shadow: 0 0 10px rgba(255,255,255, 0.9);
+  }
 `;
 
 export const Div1 = styled.div`

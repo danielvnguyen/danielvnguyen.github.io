@@ -1,6 +1,8 @@
 import React from 'react';
-import { BlogCard, CardInfo, ExternalLinks, GridContainer,
-   HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
+import {
+    BlogCard, CardInfo, GridContainer,
+    HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img, CustomLink
+} from './ProjectsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { personalProjects, academicProjects } from '../../constants/constants';
 
@@ -9,7 +11,7 @@ const Projects = () => (
     <SectionDivider />
     <SectionTitle main> Personal Projects</SectionTitle>
     <GridContainer>
-      {personalProjects.map(({id, image, title, description, tags, visit}) => (
+      {personalProjects.map(({projectId, id, image, title, description, tags, visit}) => (
         <BlogCard key = {id}>
           <Img src = {image} />
           <TitleContent>
@@ -28,7 +30,7 @@ const Projects = () => (
             </TagList>
           </div>
           <UtilityList>
-            <ExternalLinks href={visit}>See More</ExternalLinks>
+              <CustomLink href={`projects/${projectId}`}>See More</CustomLink>
           </UtilityList>
         </BlogCard>
       ))}
@@ -36,7 +38,7 @@ const Projects = () => (
     <SectionDivider />
     <SectionTitle main> Academic Projects</SectionTitle>
     <GridContainer>
-      {academicProjects.map(({id, image, title, description, tags, visit}) => (
+      {academicProjects.map(({projectId, id, image, title, description, tags, visit}) => (
         <BlogCard key = {id}>
           <Img src = {image} />
           <TitleContent>
@@ -55,7 +57,7 @@ const Projects = () => (
             </TagList>
           </div>
           <UtilityList>
-            <ExternalLinks href={visit}>See More</ExternalLinks>
+              <CustomLink href={`projects/${projectId}`}>See More</CustomLink>
           </UtilityList>
         </BlogCard>
       ))}

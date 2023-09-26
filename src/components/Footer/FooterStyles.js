@@ -106,7 +106,6 @@ export const SocialContainer = styled.div`
 
 	@media ${props => props.theme.breakpoints.md}{
 		justify-content: center;
-		padding-right: 16px;
 		flex-wrap: wrap;
 	}
 `

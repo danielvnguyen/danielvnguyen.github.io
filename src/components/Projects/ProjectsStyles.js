@@ -16,13 +16,11 @@ place-items: center;
 align-items: flex-start;
 column-gap: 4rem;
 row-gap: 3rem;
-@media ${(props) => props.theme.breakpoints.sm} {
-  display: flex;
-  flex-direction: column;
-  padding: 2rem;
-  padding-bottom: 0;
+@media ${(props) => props.theme.breakpoints.md} {
+display: flex;
+flex-direction: column;
+padding: 2rem;
 }
-
 `
 export const BlogCard = styled.div`
   border-radius: 20px;
@@ -31,9 +29,6 @@ export const BlogCard = styled.div`
   width: 100%;
   background: #494848;
   z-index: 20;
-  @media ${(props) => props.theme.breakpoints.sm} {
-    width: 100%;
-  }
 `;
 
 export const TitleContent = styled.div`
@@ -90,13 +85,14 @@ export const UtilityList = styled.ul`
   margin: 2.5rem 0;
 `;
 
-export const ExternalLinks = styled.a`
+export const CustomLink = styled.a`
 color: black;
 font-size: 1.6rem;
 padding:1rem 1.5rem;
 background: lightblue;
 border-radius: 15px;
 transition: 0.5s;
+font-weight: bold;
 &:hover{
   background: #528AAE;
 }

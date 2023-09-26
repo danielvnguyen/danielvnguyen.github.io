@@ -15,7 +15,7 @@ const Header = () =>  (
             </Div1>
             <Div2>
                 <li>
-                    <Link href = "#about">
+                    <Link href = "/#about">
                         <NavLink>
                             <div style={{ display: 'flex', alignItems: 'center' }}>
                                 <AiFillBulb size={20} style={{ marginRight: '8px' }}/> About
@@ -24,7 +24,7 @@ const Header = () =>  (
                     </Link>
                 </li>
                 <li>
-                    <Link href = "#projects">
+                    <Link href = "/#projects">
                         <NavLink>
                             <div style={{ display: 'flex', alignItems: 'center' }}>
                                 <AiFillAndroid size={20} style={{ marginRight: '8px' }}/> Projects
@@ -33,7 +33,7 @@ const Header = () =>  (
                     </Link>
                 </li>
                 <li>
-                    <Link href = "#contact">
+                    <Link href = "/#contact">
                         <NavLink>
                             <div style={{ display: 'flex', alignItems: 'center' }}>
                                 <AiFillMail size={20} style={{ marginRight: '8px' }}/> Contact

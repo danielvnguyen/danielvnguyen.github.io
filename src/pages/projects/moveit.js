@@ -6,11 +6,9 @@ import {Img} from "../../components/Hero/HeroStyles";
 import {SocialContainer, SocialIconsContainer} from "../../components/Footer/FooterStyles";
 import {SocialIcons} from "../../components/Header/HeaderStyles";
 import {AiFillAndroid, AiFillGithub} from "react-icons/ai";
-import Particles from "../../components/Particles";
 
 const Moveit = () => (
     <Container>
-        <Particles/>
         <Header/>
         <Section>
             <SectionTitle> MoveIt! - Fitness Tracker </SectionTitle>

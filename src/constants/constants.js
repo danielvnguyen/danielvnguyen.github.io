@@ -5,7 +5,7 @@ export const personalProjects = [
     description: "MoveIt! is your daily fitness tracker app, designed to inspire and empower users to maintain a healthy lifestyle by allowing them to create daily entries, save custom meals and activities, and track their progress easily",
     image: '/images/moveit_images/moveit_img.jpg',
     tags: ['Firebase', 'Java'],
-    visit: 'https://github.com/danielvnguyen/MoveIt',
+    visit: 'projects/moveit',
     id: 0,
   },
   {

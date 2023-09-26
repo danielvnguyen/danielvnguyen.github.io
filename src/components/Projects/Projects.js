@@ -30,7 +30,7 @@ const Projects = () => (
             </TagList>
           </div>
           <UtilityList>
-              <CustomLink href={`projects/${projectId}`}>See More</CustomLink>
+              <CustomLink href={visit}>See More</CustomLink>
           </UtilityList>
         </BlogCard>
       ))}
@@ -57,7 +57,7 @@ const Projects = () => (
             </TagList>
           </div>
           <UtilityList>
-              <CustomLink href={`projects/${projectId}`}>See More</CustomLink>
+              <CustomLink href={visit}>See More</CustomLink>
           </UtilityList>
         </BlogCard>
       ))}

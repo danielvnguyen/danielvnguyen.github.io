@@ -38,31 +38,25 @@ const Header = () => {
                 </Div1>
                 <Div2>
                     <li>
-                        <a href="/#about">
-                            <NavLink>
-                                <div style={{ display: 'flex', alignItems: 'center' }}>
-                                    <AiFillBulb size={20} style={{ marginRight: '8px' }} /> About
-                                </div>
-                            </NavLink>
-                        </a>
+                        <NavLink href="/#about">
+                            <div style={{ display: 'flex', alignItems: 'center' }}>
+                                <AiFillBulb size={20} style={{ marginRight: '8px' }} /> About
+                            </div>
+                        </NavLink>
                     </li>
                     <li>
-                        <a href="/#projects">
-                            <NavLink>
-                                <div style={{ display: 'flex', alignItems: 'center' }}>
-                                    <AiFillAndroid size={20} style={{ marginRight: '8px' }} /> Projects
-                                </div>
-                            </NavLink>
-                        </a>
+                        <NavLink href="/#projects">
+                            <div style={{ display: 'flex', alignItems: 'center' }}>
+                                <AiFillAndroid size={20} style={{ marginRight: '8px' }} /> Projects
+                            </div>
+                        </NavLink>
                     </li>
                     <li>
-                        <a href="/#contact">
-                            <NavLink>
-                                <div style={{ display: 'flex', alignItems: 'center' }}>
-                                    <AiFillMail size={20} style={{ marginRight: '8px' }} /> Contact
-                                </div>
-                            </NavLink>
-                        </a>
+                        <NavLink href="/#contact">
+                            <div style={{ display: 'flex', alignItems: 'center' }}>
+                                <AiFillMail size={20} style={{ marginRight: '8px' }} /> Contact
+                            </div>
+                        </NavLink>
                     </li>
                 </Div2>
                 <Div3>

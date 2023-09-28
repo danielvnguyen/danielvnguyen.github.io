@@ -39,23 +39,17 @@ const Header = () => {
                 <Div2>
                     <li>
                         <NavLink href="/#about">
-                            <div style={{ display: 'flex', alignItems: 'center' }}>
-                                <AiFillBulb size={20} style={{ marginRight: '8px' }} /> About
-                            </div>
+                            <AiFillBulb size={20} style={{ marginRight: '8px' }} /> About
                         </NavLink>
                     </li>
                     <li>
                         <NavLink href="/#projects">
-                            <div style={{ display: 'flex', alignItems: 'center' }}>
-                                <AiFillAndroid size={20} style={{ marginRight: '8px' }} /> Projects
-                            </div>
+                            <AiFillAndroid size={20} style={{ marginRight: '8px' }} /> Projects
                         </NavLink>
                     </li>
                     <li>
                         <NavLink href="/#contact">
-                            <div style={{ display: 'flex', alignItems: 'center' }}>
-                                <AiFillMail size={20} style={{ marginRight: '8px' }} /> Contact
-                            </div>
+                            <AiFillMail size={20} style={{ marginRight: '8px' }} /> Contact
                         </NavLink>
                     </li>
                 </Div2>

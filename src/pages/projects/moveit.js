@@ -19,25 +19,21 @@ const Moveit = () => (
             <SectionSubText>Languages Used: Java</SectionSubText>
             <br/>
             <SectionText>
-                <BlogCard>
-                    MoveIt! is your daily fitness tracker app, designed to inspire and empower users to maintain a healthy lifestyle.
-                    Once a day, MoveIt! sends you a reminder to create an entry, enabling you to reflect on your day.
-                    Within each entry, you can capture your mood, record meals, log daily activities or exercises,
-                    and enhance your memories with notes or images. By fostering a daily habit of tracking meals, activities, and goals,
-                    MoveIt! assists you in building patterns that lead to a healthier lifestyle
-                </BlogCard>
+                MoveIt! is your daily fitness tracker app, designed to inspire and empower users to maintain a healthy lifestyle.
+                Once a day, MoveIt! sends you a reminder to create an entry, enabling you to reflect on your day.
+                Within each entry, you can capture your mood, record meals, log daily activities or exercises,
+                and enhance your memories with notes or images. By fostering a daily habit of tracking meals, activities, and goals,
+                MoveIt! assists you in building patterns that lead to a healthier lifestyle
                 <br/>
             </SectionText>
         </Section>
         <Section>
             <SectionTitle>Background</SectionTitle>
             <SectionText>
-                <BlogCard>
-                    MoveIt! is my first significant Android project and my debut app on the Google Play Store.
-                    I created it because I wanted an easier way to track my gym progress and stay motivated when
-                    I started working out. Initially, I was using a Notes app to jot down everything related to my workouts,
-                    then I thought, "Why not make an app to simplify this process?"
-                </BlogCard>
+                MoveIt! is my first significant Android project and my debut app on the Google Play Store.
+                I created it because I wanted an easier way to track my gym progress and stay motivated when
+                I started working out. Initially, I was using a Notes app to jot down everything related to my workouts,
+                then I thought, "Why not make an app to simplify this process?"
                 <br/>
             </SectionText>
         </Section>

@@ -19,12 +19,14 @@ export const LeftSection = styled.div`
   text-align: center;
   font-size: 18px;
   @media ${(props) => props.theme.breakpoints.sm} {
+    padding: 5px;
     width: 100%;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
   }
   @media ${(props) => props.theme.breakpoints.md} {
+    padding: 5px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -37,12 +39,14 @@ export const RightSection = styled.div`
   text-align: center;
   font-size: 18px;
   @media ${(props) => props.theme.breakpoints.sm} {
+    padding: 5px;
     width: 100%;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
   }
   @media ${(props) => props.theme.breakpoints.md} {
+    padding: 5px;
     width: 100%;
     display: flex;
     flex-direction: column;

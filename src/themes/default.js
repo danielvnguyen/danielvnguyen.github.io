@@ -1,7 +1,7 @@
 export default {
   fonts: {
-    title: "Space Grotesk, sans-serif",
-    main: "Space Grotesk, sans-serif"
+    title: "Raleway, sans-serif",
+    main: "Raleway, sans-serif"
   },
   colors: {
     primary1: "hsl(204,23.8%,95.9%)",

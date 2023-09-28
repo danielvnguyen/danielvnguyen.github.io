@@ -35,14 +35,12 @@ export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
-  font-weight: bold;
 `;
 
 export const HeaderThree = styled.h3`
-  font-weight: 500;
-  letter-spacing: 2px;
   color: white;
   padding: .5rem 0;
+  font-weight: bold;
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
 `;
 

@@ -26,6 +26,7 @@ const Moveit = () => (
                     and enhance your memories with notes or images. By fostering a daily habit of tracking meals, activities, and goals,
                     MoveIt! assists you in building patterns that lead to a healthier lifestyle
                 </BlogCard>
+                <br/>
             </SectionText>
         </Section>
         <Section>
@@ -37,6 +38,7 @@ const Moveit = () => (
                     I started working out. Initially, I was using a Notes app to jot down everything related to my workouts,
                     then I thought, "Why not make an app to simplify this process?"
                 </BlogCard>
+                <br/>
             </SectionText>
         </Section>
         <Section>

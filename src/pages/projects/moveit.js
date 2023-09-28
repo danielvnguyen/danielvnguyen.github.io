@@ -5,7 +5,7 @@ import Header from "../../components/Header/Header";
 import {SocialContainer, SocialIconsContainer} from "../../components/Footer/FooterStyles";
 import {SocialIcons} from "../../components/Header/HeaderStyles";
 import {AiFillAndroid, AiFillGithub} from "react-icons/ai";
-import {Img, LeftSection, RightSection, HeaderImg} from "./project_styles";
+import {Img, LeftSection, RightSection, HeaderImg} from "../../styles/project_styles";
 import {BlogCard} from "../../components/Projects/ProjectsStyles";
 
 const Moveit = () => (

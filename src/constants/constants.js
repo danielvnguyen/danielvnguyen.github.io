@@ -72,7 +72,7 @@ export const academicProjectsTwo = [
     projectId: 'weathermonitor',
     title: 'BeagleY-AI Weather Monitoring System',
     description:"Built a real-time embedded system on the BeagleY-AI to monitor and display local weather conditions. Developed the system in C on a Debian Linux VM, integrating hardware components such as a temperature sensor, NeoPixel LED strip, LCD screen, and rotary encoder.",
-    image: '/images/weathermonitor_img.png',
+    image: '/images/weathermonitor_img.PNG',
     tags: ['C', 'Embedded Systems'],
     visit: 'https://github.com/danielvnguyen/BeagleYAI-Weather-Monitoring-System',
     id: 1,

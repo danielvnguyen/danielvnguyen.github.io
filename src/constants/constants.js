@@ -55,23 +55,26 @@ export const academicProjects = [
     tags: ['Java'],
     visit: 'https://github.com/danielvnguyen/PracticalParentApp',
     id: 2,
-  },
+  }
+];
+
+export const academicProjectsTwo = [
   {
     projectId: 'realtimeclassifier',
     title: 'Help for Helplessness: Real-Time Emotion Classification',
     description:"Developed a real-time emotion recognition system that classifies levels of helplessness from short video clips using deep learning. Built a custom dataset of annotated human expressions, and evaluated three types of models",
-    image: '/images/realtimeclassifier_img.jpg',
+    image: '/images/realtimeclassifier_img.png',
     tags: ['Python', 'Machine Learning'],
-    visit: 'https://github.com/danielvnguyen/PracticalParentApp',
-    id: 3,
+    visit: 'https://github.com/danielvnguyen/Real-Time-Helplessness-Classifier',
+    id: 0,
   },
   {
     projectId: 'weathermonitor',
     title: 'BeagleY-AI Weather Monitoring System',
     description:"Built a real-time embedded system on the BeagleY-AI to monitor and display local weather conditions. Developed the system in C on a Debian Linux VM, integrating hardware components such as a temperature sensor, NeoPixel LED strip, LCD screen, and rotary encoder.",
-    image: '/images/weathermonitor_img.jpg',
+    image: '/images/weathermonitor_img.png',
     tags: ['C', 'Embedded Systems'],
-    visit: 'https://github.com/danielvnguyen/PracticalParentApp',
-    id: 4,
+    visit: 'https://github.com/danielvnguyen/BeagleYAI-Weather-Monitoring-System',
+    id: 1,
   }
 ];

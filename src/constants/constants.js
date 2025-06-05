@@ -22,7 +22,7 @@ export const personalProjects = [
     title: 'Letter Rush',
     description: "A text user interface game about quickly typing valid words within a certain time limit, developed with inspiration from Word Bomb",
     image: '/images/letterrush_img.jpg',
-    tags: ['C/C++'],
+    tags: ['C', 'C++'],
     visit: 'https://github.com/danielvnguyen/LetterRush',
     id: 2,
   }
@@ -50,10 +50,28 @@ export const academicProjects = [
   {
     projectId: 'practicalparentapp',
     title: 'Practical Parent App',
-    description:"A school project made in cooperation with 3 others. Designed to assist parents with their children in many ways. Includes a timeout timer, coin flip, task manager, and other activities",
+    description: "A school project made in cooperation with 3 others. Designed to assist parents with their children in many ways. Includes a timeout timer, coin flip, task manager, and other activities",
     image: '/images/parentapp_img.jpg',
     tags: ['Java'],
     visit: 'https://github.com/danielvnguyen/PracticalParentApp',
     id: 2,
+  },
+  {
+    projectId: 'realtimeclassifier',
+    title: 'Help for Helplessness: Real-Time Emotion Classification',
+    description:"Developed a real-time emotion recognition system that classifies levels of helplessness from short video clips using deep learning. Built a custom dataset of annotated human expressions, and evaluated three types of models",
+    image: '/images/realtimeclassifier_img.jpg',
+    tags: ['Python', 'Machine Learning'],
+    visit: 'https://github.com/danielvnguyen/PracticalParentApp',
+    id: 3,
+  },
+  {
+    projectId: 'weathermonitor',
+    title: 'BeagleY-AI Weather Monitoring System',
+    description:"Built a real-time embedded system on the BeagleY-AI to monitor and display local weather conditions. Developed the system in C on a Debian Linux VM, integrating hardware components such as a temperature sensor, NeoPixel LED strip, LCD screen, and rotary encoder.",
+    image: '/images/weathermonitor_img.jpg',
+    tags: ['C', 'Embedded Systems'],
+    visit: 'https://github.com/danielvnguyen/PracticalParentApp',
+    id: 4,
   }
 ];

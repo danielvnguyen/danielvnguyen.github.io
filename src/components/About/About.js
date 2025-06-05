@@ -9,7 +9,7 @@ const About = () =>  (
     <br />
     <SectionTitle>About Me</SectionTitle>
     <SectionText>
-        Hi! I'm Daniel, an aspiring software developer from Metro Vancouver. I am currently studying for my degree in Computing Science at Simon Fraser University, and have 8 months experience at WelTel Inc. as a Full Stack Developer.
+        Hey! I'm Daniel, an aspiring software developer from Metro Vancouver. I am studying for my Computing Science degree at Simon Fraser University. I have 8 months of experience at Safe Fleet as a Test Automation Engineer and 8 months of experience at WelTel Inc. as a Full Stack Developer.
     <br /><br />
         Here, you can explore a selection of my projects.
         I am passionate about continuously expanding my knowledge of various technologies and honing my skills with programming tools and languages.

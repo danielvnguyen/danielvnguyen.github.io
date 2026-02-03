@@ -9,13 +9,25 @@ export const personalProjects = [
     id: 0,
   },
   {
+    projectId: 'apptrackr',
+    title: 'AppTrackr',
+    description: "AppTrackr is a local ASP.NET Core MVC application that helps you track job applications, including company, position, status, notes, and job posting links. Data is stored locally using SQLite and Entity Framework Core",
+    image: '/images/apptrackr_img.PNG',
+    tags: ['C#', 'ASP.NET Core', 'Entity Framework Core', 'SQLite'],
+    visit: 'https://github.com/danielvnguyen/AppTrackr',
+    id: 1,
+  }
+];
+
+export const personalProjectsTwo = [
+  {
     projectId: 'sketchapp',
     title: 'SketchApp',
     description: "A sketching/drawing Android app. Complete with animations, sound effects, and many features within an easy-to-use interface",
     image: '/images/sketchapp_img.jpg',
     tags: ['Java'],
     visit: 'https://github.com/danielvnguyen/SketchApp',
-    id: 1,
+    id: 0,
   },
   {
     projectId: 'letterrush',
@@ -24,7 +36,7 @@ export const personalProjects = [
     image: '/images/letterrush_img.jpg',
     tags: ['C', 'C++'],
     visit: 'https://github.com/danielvnguyen/LetterRush',
-    id: 2,
+    id: 1,
   }
 ];
 
